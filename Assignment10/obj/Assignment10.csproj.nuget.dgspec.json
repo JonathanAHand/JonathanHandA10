@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhand1\\Downloads\\Assignment_10_Starter\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj": {}
+    "C:\\Users\\jhand1\\Downloads\\JonathanHandA10\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhand1\\Downloads\\Assignment_10_Starter\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj": {
+    "C:\\Users\\jhand1\\Downloads\\JonathanHandA10\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhand1\\Downloads\\Assignment_10_Starter\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj",
+        "projectUniqueName": "C:\\Users\\jhand1\\Downloads\\JonathanHandA10\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj",
         "projectName": "Assignment10",
-        "projectPath": "C:\\Users\\jhand1\\Downloads\\Assignment_10_Starter\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj",
+        "projectPath": "C:\\Users\\jhand1\\Downloads\\JonathanHandA10\\Assignment_10_Starter\\Starter\\Assignment10\\Assignment10.csproj",
         "packagesPath": "C:\\Users\\jhand1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhand1\\Downloads\\Assignment_10_Starter\\Assignment_10_Starter\\Starter\\Assignment10\\obj\\",
+        "outputPath": "C:\\Users\\jhand1\\Downloads\\JonathanHandA10\\Assignment_10_Starter\\Starter\\Assignment10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
