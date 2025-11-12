@@ -15,3 +15,13 @@ C:\Users\jhand1\Downloads\Assignment_10_Starter\Assignment_10_Starter\Starter\As
 C:\Users\jhand1\Downloads\Assignment_10_Starter\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.genruntimeconfig.cache
 C:\Users\jhand1\Downloads\Assignment_10_Starter\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\ref\Assignment10.dll
 C:\Users\jhand1\Downloads\Assignment_10_Starter\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.sourcelink.json
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.View.MainForm.resources
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.csproj.GenerateResource.cache
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.AssemblyInfoInputs.cache
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.AssemblyInfo.cs
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.csproj.CoreCompileInputs.cache
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.sourcelink.json
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.dll
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\refint\Assignment10.dll
+C:\Users\jhand1\Downloads\JonathanHandA10\Assignment_10_Starter\Starter\Assignment10\obj\Debug\net8.0-windows7.0\Assignment10.pdb
