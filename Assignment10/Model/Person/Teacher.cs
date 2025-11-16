@@ -30,5 +30,19 @@
         {
             return base.ToString() + $"; Department - {Department}";
         }
+
+        public override string Details
+        {
+            get
+            {
+                string addressInfo = HomeAddress != null
+                    ? HomeAddress.ToString()
+                    : "No Home Address";
+
+                return $"{FirstName} {LastName} ({Id}){Environment.NewLine}" +
+                       $"{addressInfo}{Environment.NewLine}" +
+                       $"Department: {Department}";
+            }
+        }
     }
 }
