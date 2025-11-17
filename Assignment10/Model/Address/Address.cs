@@ -24,7 +24,8 @@
 
         public override string ToString()
         {
-            return State + Environment.NewLine + City + ", " + State + Environment.NewLine + Zip + Environment.NewLine;
+            return $"{Street}{Environment.NewLine}" +
+                   $"{City}, {State} {Zip}";
         }
     }
 }

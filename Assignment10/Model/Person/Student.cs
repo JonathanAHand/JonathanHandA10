@@ -1,4 +1,6 @@
-﻿namespace Assignment10.Model.Person
+﻿using System;
+
+namespace Assignment10.Model.Person
 {
     public class Student : Person
     {
@@ -9,29 +11,43 @@
 
         public string Major
         {
-            get => _major;
+            get { return _major; }
             set
             {
-                if (value is null)
+                if (value == null)
                 {
                     throw new ArgumentNullException(nameof(value), "Major cannot be null.");
                 }
 
-                _major = value == string.Empty ? Undeclared : value;
+                if (value == string.Empty)
+                {
+                    _major = Undeclared;
+                }
+                else
+                {
+                    _major = value;
+                }
             }
         }
 
         public string Minor
         {
-            get => _minor;
+            get { return _minor; }
             set
             {
-                if (value is null)
+                if (value == null)
                 {
                     throw new ArgumentNullException(nameof(value), "Minor cannot be null.");
                 }
 
-                _minor = value == string.Empty ? Undeclared : value;
+                if (value == string.Empty)
+                {
+                    _minor = Undeclared;
+                }
+                else
+                {
+                    _minor = value;
+                }
             }
         }
 
@@ -39,24 +55,36 @@
         {
             get
             {
-                string addressInfo = HomeAddress != null ? HomeAddress.ToString() : "No Address";
-                return $"Name: {FirstName} {LastName}, ID: {Id}, Major: {Major}, Minor: {Minor}, Address: {addressInfo}";
+                string addressInfo = HomeAddress != null
+                    ? HomeAddress.ToString()
+                    : "No Home Address";
+
+                string minorText = Minor == Undeclared ? "" : $", Minor: {Minor}";
+
+                return $"{FirstName} {LastName} ({Id}){Environment.NewLine}" +
+                       $"{addressInfo}{Environment.NewLine}" +
+                       $"Major: {Major}{minorText}";
             }
         }
+
+        
 
         private Student()
         {
         }
 
-        public Student(string firstName, string lastName) : this(firstName, lastName, 0, null, string.Empty)
+        public Student(string firstName, string lastName)
+            : this(firstName, lastName, 0, null, string.Empty)
         {
         }
 
-        public Student(string firstName, string lastName, int id) : this(firstName, lastName, id, null, string.Empty)
+        public Student(string firstName, string lastName, int id)
+            : this(firstName, lastName, id, null, string.Empty)
         {
         }
 
-        public Student(string firstName, string lastName, int id, Address.Address homeAddress) : this(firstName, lastName, id, homeAddress, string.Empty)
+        public Student(string firstName, string lastName, int id, Address.Address homeAddress)
+            : this(firstName, lastName, id, homeAddress, string.Empty)
         {
         }
 

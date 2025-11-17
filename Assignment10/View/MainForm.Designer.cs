@@ -28,38 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.outputLabel = new System.Windows.Forms.Label();
-            this.outputTextBox = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
+            outputLabel = new Label();
+            outputTextBox = new TextBox();
+            SuspendLayout();
             // 
             // outputLabel
             // 
-            this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(23, 18);
-            this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(90, 32);
-            this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "Output";
+            outputLabel.AutoSize = true;
+            outputLabel.Location = new Point(14, 11);
+            outputLabel.Margin = new Padding(2, 0, 2, 0);
+            outputLabel.Name = "outputLabel";
+            outputLabel.Size = new Size(55, 20);
+            outputLabel.TabIndex = 0;
+            outputLabel.Text = "Output";
             // 
             // outputTextBox
             // 
-            this.outputTextBox.Location = new System.Drawing.Point(23, 53);
-            this.outputTextBox.Multiline = true;
-            this.outputTextBox.Name = "outputTextBox";
-            this.outputTextBox.Size = new System.Drawing.Size(765, 365);
-            this.outputTextBox.TabIndex = 1;
+            outputTextBox.Location = new Point(14, 44);
+            outputTextBox.Margin = new Padding(2, 2, 2, 2);
+            outputTextBox.Multiline = true;
+            outputTextBox.Name = "outputTextBox";
+            outputTextBox.Size = new Size(472, 230);
+            outputTextBox.TabIndex = 1;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 440);
-            this.Controls.Add(this.outputTextBox);
-            this.Controls.Add(this.outputLabel);
-            this.Name = "MainForm";
-            this.Text = "Assignment 10 by ";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(500, 275);
+            Controls.Add(outputTextBox);
+            Controls.Add(outputLabel);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "MainForm";
+            Text = "Assignment 10 by ";
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
