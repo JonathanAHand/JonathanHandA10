@@ -60,7 +60,7 @@
             Controls.Add(outputLabel);
             Margin = new Padding(2, 2, 2, 2);
             Name = "MainForm";
-            Text = "Assignment 10 by ";
+            Text = "Assignment 10 by Hand";
             ResumeLayout(false);
             PerformLayout();
 

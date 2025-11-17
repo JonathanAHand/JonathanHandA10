@@ -19,7 +19,7 @@ namespace Assignment10.View
             var teacherAddress = new Address("42 Campus Drive", "Carrollton", "GA", 30118);
             var staffAddress = new Address("900 University Ave", "Carrollton", "GA", 30117);
 
-            var student = new Student("Christopher Walken", "Smith", 555111, studentAddress, "Villainry");
+            var student = new Student("Christopher", "Walken", 555111, studentAddress, "Villainry");
             student.Minor = "Mathematics";
 
 
